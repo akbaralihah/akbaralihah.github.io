@@ -92,7 +92,7 @@ export default function Home() {
         </div>
       </div>
 
-      <FastfolioCTA/>
+      {/*<FastfolioCTA/>*/}
 
       {/* header */}
       <motion.div

@@ -1,4 +1,3 @@
-import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/sonner';
 import { cn } from '@/lib/utils';
 import { Analytics } from '@vercel/analytics/react';
@@ -91,14 +90,8 @@ export default function RootLayout({
           inter.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={false}
-        >
-          <main className="flex min-h-screen flex-col">{children}</main>
-          <Toaster />
-        </ThemeProvider>
+        <main className="flex min-h-screen flex-col">{children}</main>
+        <Toaster />
         <Analytics />
       </body>
     </html>

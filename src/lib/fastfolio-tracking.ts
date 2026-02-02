@@ -19,7 +19,8 @@ export class FastfolioTracking {
       return currentCount;
     }
     
-    const newCount = currentCount + 1;
+    //const newCount = currentCount + 1;
+    const newCount = 0;
     localStorage.setItem(STORAGE_KEYS.MESSAGE_COUNT, newCount.toString());
     
     // Mark rate limit reached if we hit the limit

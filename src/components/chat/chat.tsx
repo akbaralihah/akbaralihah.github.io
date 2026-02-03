@@ -156,14 +156,14 @@ const Chat = () => {
         
         // Don't increment here since we already increment on submit
         // Just check if we should show popup
-        //if (FastfolioTracking.shouldShowPopup()) {
-        //  setTimeout(() => {
-        //    setShowFastfolioPopup(true);
-        //    if (!FastfolioTracking.hasReachedLimit()) {
-        //      FastfolioTracking.markPopupShown();
-        //    }
-        //  }, 2000);
-        //}
+        if (FastfolioTracking.shouldShowPopup()) {
+          setTimeout(() => {
+            setShowFastfolioPopup(true);
+            if (!FastfolioTracking.hasReachedLimit()) {
+              FastfolioTracking.markPopupShown();
+            }
+          }, 2000);
+        }
       }
     },
     onFinish: () => {
@@ -327,7 +327,7 @@ const Chat = () => {
 
   return (
     <div className="relative h-screen overflow-hidden">
-      {/*<FastfolioCTA />*/}
+      <FastfolioCTA />
       <FastfolioPopup open={showFastfolioPopup} onOpenChange={setShowFastfolioPopup} hasReachedLimit={hasReachedLimit} />
       <div className="absolute top-6 right-8 z-51 flex flex-col-reverse items-center justify-center gap-1 md:flex-row">
         <WelcomeModal
@@ -437,7 +437,7 @@ const Chat = () => {
               disabled={hasReachedLimit}
             />
           </div>
-          {/*<PoweredByFastfolio />*/}
+          <PoweredByFastfolio />
         </div>
       </div>
     </div>

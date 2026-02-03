@@ -5,7 +5,7 @@ const STORAGE_KEYS = {
   RATE_LIMIT_REACHED: 'fastfolio_rate_limit_reached',
 } as const;
 
-const MESSAGE_LIMIT = 6; // Rate limit: 5 messages total
+const MESSAGE_LIMIT = 3; // Rate limit: 3 messages total
 
 export class FastfolioTracking {
   static incrementMessageCount(): number {

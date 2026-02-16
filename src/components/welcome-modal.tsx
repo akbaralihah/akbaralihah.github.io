@@ -37,7 +37,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
         alt="Logo"
         className="w-6 md:w-8"
       />
-      <span className="sr-only">About Toukoum</span>
+      <span className="sr-only">About Akbarali</span>
     </Button>
   );
 

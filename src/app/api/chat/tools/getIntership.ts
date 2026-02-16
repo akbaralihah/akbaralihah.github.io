@@ -17,9 +17,9 @@ export const getInternship = tool({
 - 🔥 I move fast, learn faster, and I’m HUNGRYYYYY for big challenges
 
 📬 **Contact me** via:
-- Email: raphaelgiraud12@gmail.com
-- LinkedIn: [linkedin.com/in/raphael-giraud](https://www.linkedin.com/in/raphael-giraud-ai/)
-- GitHub: [github.com/raphaelgiraud](https://github.com/toukoum)
+- Email: akbaralihah@gmail.com
+- LinkedIn: [linkedin.com/in/akbaralihah](https://www.linkedin.com/in/akbaralihah/)
+- GitHub: [github.com/akbaralihah](https://github.com/akbaralihah)
 
 Let's build cool shit together ✌️
     `;

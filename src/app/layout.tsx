@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Toukoum Portfolio',
+  title: 'Akbarali Portfolio',
   description:
     'Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience',
   keywords: [
-    'Toukoum',
+    'Akbarali',
     'Portfolio',
     'Developer',
     'AI',
@@ -30,26 +30,26 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: 'Toukoum',
-      url: 'https://toukoum.fr',
+      name: 'Akbarali',
+      url: 'https://akbaralihah.github.io',
     },
   ],
-  creator: 'Toukoum',
+  creator: 'Akbarai',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://toukoum.fr',
-    title: 'Toukoum Portfolio',
+    url: 'https://akbaralihah.github.io',
+    title: 'Akbarali Portfolio',
     description:
       'Interactive portfolio with an AI-powered Memoji that answers questions about me',
-    siteName: 'Toukoum Portfolio',
+    siteName: 'Akbarali Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Toukoum Portfolio',
+    title: 'Akbarali Portfolio',
     description:
       'Interactive portfolio with an AI-powered Memoji that answers questions about me',
-    creator: '@toukoum',
+    creator: '@akbarali',
   },
   icons: {
     icon: [
@@ -79,7 +79,7 @@ export default function RootLayout({
         <Script
           defer
           data-website-id="68e067ba369b1b7f1f096056"
-          data-domain="toukoum.fr"
+          data-domain="akbarali.github.io"
           data-allow-localhost="true"
           src="https://datafa.st/js/script.js"
         ></Script>

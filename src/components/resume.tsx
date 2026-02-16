@@ -8,7 +8,7 @@ import Image from 'next/image';
 export function Resume() {
   // Resume details
   const resumeDetails = {
-    title: "Raphael's Resume",
+    title: "Akbarali's Resume",
     description: 'Full Stack Developer • AI Specialist',
     fileType: 'PDF',
     lastUpdated: 'March 2025',

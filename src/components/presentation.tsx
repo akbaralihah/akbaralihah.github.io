@@ -7,7 +7,7 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Raphael Giraud',
+    name: 'Salohiddinov Akbarali',
     age: '21 years old',
     location: 'Paris, France',
     // Add a newline character after the emoji
